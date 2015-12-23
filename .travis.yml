@@ -22,7 +22,7 @@ before_install:
   - echo 'en_US.UTF-8 UTF-8' | sudo tee /var/lib/locales/supported.d/local
 
 install:
-  - pip install ansible==1.8.4
+  - pip install ansible==1.9.4
 
 script:
   - echo localhost > inventory
